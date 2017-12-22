@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Troyes</string>
+    <string name="continuer">Continuer</string>
+    <string name="email">Email</string>
+    <string name="mot_de_passe">Mot de passe</string>
+    <string name="confirmer_mot_de_passe">Confirmer mot de passe</string>
+    <string name="Nom">Nom</string>
+    <string name="prenom">Prénom</string>
+    <string name="Connexion_auto">Connexion automatique</string>
+    <string name="mot_de_passe_oublie">Mot de passe oublié?</string>
+    <string name="nouveau">Nouveau? S\'inscrire</string>
+    <string name="mot_de_passe_oublie_texte">Indiquez ci-dessous l\'address mail associé à
+        votre compte, et votre mot de passe vous seera envoyé instantanément.</string>
+    <string name="probleme">Quel problème?</string>
+
+    <string name="cette_liste">Choisissez dans cette liste</string>
+
+</resources>

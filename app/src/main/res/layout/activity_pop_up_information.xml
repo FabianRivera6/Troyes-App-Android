@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="320dp"
+    android:layout_height="440dp"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDarkPopUp"
+    android:padding="5dp"
+    android:layout_gravity="center"
+    tools:context="fr.utt.if26.troyes.PopUpInformation">
+
+    <TextView
+        android:id="@+id/txClosel"
+        android:text="X"
+        android:layout_gravity="end"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textColor="#fff"
+        android:background="@drawable/cerclebackground"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/utt"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="L'application a été créée par"
+            android:textStyle="bold"
+            android:textColor="#ffff"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fabian Rivera"
+            android:textStyle="bold"
+            android:textColor="#ffff"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Maty Akoli"
+            android:textStyle="bold"
+            android:textColor="#ffff"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IF26 Automne 2017"
+            android:textStyle="bold"
+            android:textColor="#ffff"
+            android:textSize="18sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            />
+    </LinearLayout>
+</LinearLayout>

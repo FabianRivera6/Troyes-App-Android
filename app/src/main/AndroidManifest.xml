@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="fr.utt.if26.troyes">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".BienvenuePage"
+            android:theme="@style/AppLogin">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MotdePasseOublie" />
+        <activity android:name=".Nouveau_utilisateur" />
+        <activity android:name=".Accueil" />
+        <activity android:name=".PageAccueil" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".Login"
+            android:theme="@style/AppLogin" />
+        <activity
+            android:name=".Motdepasse"
+            android:theme="@style/AppLogin" />
+        <activity
+            android:name=".Nouveau_User"
+            android:theme="@style/AppLogin" />
+        <activity android:name=".AjouterPhoto" />
+        <activity android:name=".ImageListActivity" />
+        <activity android:name=".PopUpInformation" />
+        <activity android:name=".Signaler_Probleme" />
+        <activity android:name=".problemes_list_activity"></activity>
+    </application>
+
+</manifest>

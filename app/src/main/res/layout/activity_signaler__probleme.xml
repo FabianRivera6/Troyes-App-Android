@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="fr.utt.if26.troyes.Signaler_Probleme">
+
+    <Button
+        android:id="@+id/btnEscogerL"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/buttonstylepink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ajouter Photo"
+        android:textSize="15sp"
+        android:textColor="#ffff"
+        android:drawablePadding="10dp"
+        android:drawableRight="@drawable/ic_ajouter_photo_24dp"/>
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="240dp"
+        android:layout_gravity="center"
+        android:id="@+id/ivComidaL"
+        android:src="@drawable/ic_group_add_black_24dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etPlatoL"
+        android:hint="Nom de l'image"
+        android:singleLine="true"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etPreciol"
+        android:hint="Saissisez la description"
+        android:ems="2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnGuardarL"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:background="@drawable/buttonstylepink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Valider"
+            android:textSize="15sp"
+            android:textColor="#ffff"
+            android:drawablePadding="10dp"
+            android:drawableRight="@drawable/ic_valider_photo_24dp"/>/>
+
+        <Button
+            android:id="@+id/btnlistaL"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="25dp"
+            android:gravity="center"
+            android:background="@drawable/buttonstylepink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Voir "
+            android:textSize="15sp"
+            android:textColor="#ffff"
+            android:drawablePadding="10dp"
+            android:drawableRight="@drawable/ic_voir_photo_24dp"/>/>
+
+    </LinearLayout>
+
+</LinearLayout>
